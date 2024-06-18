@@ -221,7 +221,27 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
-
+#item1-img {
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+  content: "test 1, test 2, test 3";
+}
+#item2-img {
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+}
+#item3-img {
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+}
+#item4-img {
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+}
+#item5-img {
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+}
 /* media queries */
 
 /* TODO: add media query for a max-width of 980px */
