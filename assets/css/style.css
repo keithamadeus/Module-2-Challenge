@@ -53,6 +53,11 @@ header h1 {
   line-height: 1;
 }
 
+header h1 a {
+  text-decoration: none;
+  color: #13293d52;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -222,25 +227,29 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 #item1-img {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/Horiseon_Social_Solution.gif"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
-  content: "test 1, test 2, test 3";
+  content: "Gif of refactored site for acessibility.";
 }
 #item2-img {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/jan-huber-3Btf2cTAGKs-unsplash.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
+  content: "Placeholder item, disperced blurry lights.";
 }
 #item3-img {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/jason-leung-xooz6knx1Vw-unsplash.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
+  content: "Placeholder item, close up circutboard.";
 }
 #item4-img {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/nasa-Q1p7bh3SHj8-unsplash.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
+  content: "Placeholder item, distant stars.";
 }
 #item5-img {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/onur-binay-_yC2htzMYnI-unsplash.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
+  content: "Placeholder item, close up corner of a keyboard laptop.";
 }
 /* media queries */
 
