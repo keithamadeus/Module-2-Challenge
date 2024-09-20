@@ -111,8 +111,8 @@ main {
 }
 
 .hero-banner h2 {
-  background-color: var(--secondary);
-  color: var(--tertiary);
+  opacity: 0.65;
+  color: var(--light);
   margin: 0;
   padding: 5px 10px;
   font-size: 2.3rem;
